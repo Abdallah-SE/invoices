@@ -10,6 +10,7 @@
         "fx3costa/laravelchartjs": "^2.9",
         "guzzlehttp/guzzle": "^7.0.1",
         "inertiajs/inertia-laravel": "^0.5.4",
+        "laravel/fortify": "^1.18",
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.8",
         "laravelcollective/html": "^6.3",
@@ -18,6 +19,7 @@
         "tightenco/ziggy": "^1.0"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "*",
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
         "laravel/breeze": "^1.9",
