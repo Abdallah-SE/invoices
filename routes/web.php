@@ -83,7 +83,7 @@ Route::group(['middleware' => ['auth', 'verified_active_user']], function()
    
   Route::get('/dashboard/{lang}', [HomeController::class, 'index'])->name('dashboard');
   Route::get('/{lang}', [HomeController::class, 'index'])->name('dashboard');
-  Route::get('/', [HomeController::class, 'index'])->name('dashboard');
+  Route::get('/dashboard', [HomeController::class, 'index'])->name('dashboard');
   
   Route::get('/markAsRead', [InvoicesController::class, 'markAsRead'])->name('markAsRead');
   

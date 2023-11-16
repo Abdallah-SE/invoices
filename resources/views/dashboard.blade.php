@@ -90,7 +90,6 @@
                                     @endphp
                                     @if ($invoice_count > 0)
                                         {{ round((\App\Models\invoices::where('Value_Status', '=', 2)->count() / $invoice_count) * 100) }}
-                             
                                     @endif
                                 </span>
                             </span>

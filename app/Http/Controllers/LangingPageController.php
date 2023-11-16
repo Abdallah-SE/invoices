@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Models\invoices;
 
-class HomeController extends Controller
+class LangingPageController extends Controller
 {
         
         /**

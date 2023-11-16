@@ -36,11 +36,11 @@ class InvoicesController extends Controller
     
     public function __construct() {
        // $this->middleware('permission:invoices', ['only' => ['index']]);
-        $this->middleware('permission:invoices_list', ['only' => ['index']]);
-        $this->middleware('permission:paid_invoices_list', ['only' => ['paid']]);
-        $this->middleware('permission:unpaid_invoices_list', ['only' => ['unpaid']]);
-        $this->middleware('permission:partial_paid_invoices_list', ['only' => ['partial']]);
-        $this->middleware('permission:trashed_invoices', ['only' => ['trash']]);
+        // $this->middleware('permission:invoices_list', ['only' => ['index']]);
+        // $this->middleware('permission:paid_invoices_list', ['only' => ['paid']]);
+        // $this->middleware('permission:unpaid_invoices_list', ['only' => ['unpaid']]);
+        // $this->middleware('permission:partial_paid_invoices_list', ['only' => ['partial']]);
+        // $this->middleware('permission:trashed_invoices', ['only' => ['trash']]);
     }
     public function index()
     {
